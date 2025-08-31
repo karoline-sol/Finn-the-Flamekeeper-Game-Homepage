@@ -129,25 +129,23 @@ p{
 
 .s2 .title {
   height: 100%;
+  
 
 }
 
 .s2 .runes-container {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 15px;
-  margin-left: 12px;
+  padding-left: 20px;
   gap: 15px;
   border-left: #ffcc02 solid 3px;
 }
 
 .s2 img {
-  display: flex;
+  justify-content: space-between;
   border: 3px solid #ffcc02;
   flex-grow: 1;
-  width: 100%;
-  max-width: 400px;
-  
+  object-fit: cover;
 }
 
 
@@ -188,18 +186,13 @@ p{
 }
 
 .runes{
-  width: 500px;
+  min-width: 400px;
   height: 200px;
   gap: 15px;
   align-content: center;
   border: #ffcc02 solid;
 }
 
-.runesL{
-  width: 500px;
-  height: 200px;
-
-}
 
 
 
@@ -218,7 +211,7 @@ p{
 
 .s3 h4{
   font-size: 24px;
-  font font-weight: bold;
+  font-weight: bold;
 }
 
 
@@ -228,7 +221,7 @@ p{
   display: flex;
   justify-content: flex-start;
   margin: 80px 30px;
-  gap: 340px;
+  gap: 15px;
   text-align: center;
 }
 
@@ -243,11 +236,10 @@ p{
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  padding left: 8px;
 }
 
 .contact-box{
-  padding-left: 16px;
+  padding-left: 20px;
   border-left: #ffcc02 3px solid;
 }
 
